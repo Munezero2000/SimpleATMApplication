@@ -1,0 +1,14 @@
+C:\Users\Munezero\source\repos\SimpleATM\SimpleATM\bin\Debug\net6.0\SimpleATM.exe
+C:\Users\Munezero\source\repos\SimpleATM\SimpleATM\bin\Debug\net6.0\SimpleATM.deps.json
+C:\Users\Munezero\source\repos\SimpleATM\SimpleATM\bin\Debug\net6.0\SimpleATM.runtimeconfig.json
+C:\Users\Munezero\source\repos\SimpleATM\SimpleATM\bin\Debug\net6.0\SimpleATM.dll
+C:\Users\Munezero\source\repos\SimpleATM\SimpleATM\bin\Debug\net6.0\SimpleATM.pdb
+C:\Users\Munezero\source\repos\SimpleATM\SimpleATM\obj\Debug\net6.0\SimpleATM.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Munezero\source\repos\SimpleATM\SimpleATM\obj\Debug\net6.0\SimpleATM.AssemblyInfoInputs.cache
+C:\Users\Munezero\source\repos\SimpleATM\SimpleATM\obj\Debug\net6.0\SimpleATM.AssemblyInfo.cs
+C:\Users\Munezero\source\repos\SimpleATM\SimpleATM\obj\Debug\net6.0\SimpleATM.csproj.CoreCompileInputs.cache
+C:\Users\Munezero\source\repos\SimpleATM\SimpleATM\obj\Debug\net6.0\SimpleATM.dll
+C:\Users\Munezero\source\repos\SimpleATM\SimpleATM\obj\Debug\net6.0\refint\SimpleATM.dll
+C:\Users\Munezero\source\repos\SimpleATM\SimpleATM\obj\Debug\net6.0\SimpleATM.pdb
+C:\Users\Munezero\source\repos\SimpleATM\SimpleATM\obj\Debug\net6.0\SimpleATM.genruntimeconfig.cache
+C:\Users\Munezero\source\repos\SimpleATM\SimpleATM\obj\Debug\net6.0\ref\SimpleATM.dll
