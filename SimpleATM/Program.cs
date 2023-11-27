@@ -14,6 +14,7 @@ namespace SimpleATM
         private double balance;
         private String currency;
 
+    // Argument constructor this constrcutor hlps to initialize the object without using the setter methods
         public CardHolder(String cardNo, int pin, String fullNames, double balance, String currency)
         {
             this.cardNumber = cardNo;
@@ -23,22 +24,27 @@ namespace SimpleATM
             this.currency = currency;
         }
 
-        // Getters
+        // These are Getter methods the are helpin us to access to get the value
+        // from the protected variables;
         public String getCardNumber() { return cardNumber; }
         public int getPin() { return pin; }
         public String getFullNames() { return fullNames; }
         public double getBalance() { return balance; }
         public String getCurrency() { return currency; }
 
-        //Setters
+       
+        // These are Getter methods the are helpin us to set  the value
+        // from the protected variables;
         public void setCardNumber(String newCardNo) { cardNumber = newCardNo; }
         public void setPin(int newPin) { pin = newPin; }
         public void setFirstName(String newFullNames) { fullNames = newFullNames; }
         public void setBalance(double newBal) { balance = newBal; }
         public void setCurrency(String newCurrency) { currency = newCurrency; }
+
         // Caller function: It is used to call other functions
         static void Main(string[] args)
         {
+            // As this a simple application there is no database connectivity that is why we are using an  array to hold our data
             List<CardHolder> listOfClients = new List<CardHolder>();
             listOfClients.Add(new CardHolder("4008010", 1234, "Sonia Gasaro", 150000, "Rwf"));
             listOfClients.Add(new CardHolder("4008011", 4321, "Erick Gwiza", 150000, "Rwf"));
@@ -47,7 +53,7 @@ namespace SimpleATM
             listOfClients.Add(new CardHolder("4008014", 1423, "Thierry Mugisha", 5000000, "Rwf"));
 
             // Prompt the user to execute the system
-            Console.WriteLine("Welcome to Tuesday Class ATM");
+            Console.WriteLine("Welcome to Our simple ATM Appliction");
             Console.WriteLine("Please enter the digits on your card");
             String enteredCardNo = "";
             int enteredPin = 0;
@@ -122,7 +128,7 @@ namespace SimpleATM
         }
         static void deposit(CardHolder cardHolder)
         {
-            Console.WriteLine("Specify you Currency");
+            Console.WriteLine("Specify your Currency");
             String specifiedCurr = Console.ReadLine();
             if (specifiedCurr.Equals(cardHolder.getCurrency()))
             {
